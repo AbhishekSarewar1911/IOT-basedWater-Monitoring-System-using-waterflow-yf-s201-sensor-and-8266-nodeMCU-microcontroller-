@@ -34,3 +34,12 @@ The water flow rate can be calculated by counting the pulses from the output of 
 The pulse signal is a simple square wave so its quite easy to log and convert into liters per minute using the following formula.
 
  > 1	Pulse frequency (Hz) / 7.5 = flow rate in L/min
+ 
+ # IoT Water Flow Meter using ESP8266 & Water Flow Sensor
+ 
+ Water Flow Sensor is a digital Sensor, so we can connect its output pin to any of the digital pins of ESP8266. In my case, I connected to GPIO2, i.e D4. The sensor works at 5V & can be connected to Vin of ESP8266. Similarly, I2C OLED Display SDA & SCL pins are connected to D2 & D1 of ESP8266 respectively. The OLED Display works at 3.3V so it can be connected to 3.3V pin of Nodemcu.
+ I have assembled the circuit on Breadboard. You can use the PCB for making the small Water Flow Meter board and you can also use ARDUINO UNO set up for connecting  YF-S201 Hall-Effect Water Flow Sensor with LED display.
+
+ let us see the IoT Water Flow Meter Circuit Diagram & Connection with Arduino Uno .
+ 
+ ![Alt Text]()
