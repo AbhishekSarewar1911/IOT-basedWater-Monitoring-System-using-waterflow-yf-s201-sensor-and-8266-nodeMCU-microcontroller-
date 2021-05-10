@@ -60,11 +60,10 @@ Now we need to setup the Thingspeak Account. To set up Thingspeak follow the fol
  ![Alt Text](https://github.com/AbhishekSarewar1911/IOT-basedWater-Monitoring-System-using-waterflow-yf-s201-sensor-and-8266-nodeMCU-microcontroller-/blob/main/thingspeak.png)
  
  - Step 1: Visit https://thingspeak.com/ and create your account by filling up the details.
- - ![Alt Text]()
+ - ![Alt Text](https://github.com/AbhishekSarewar1911/IOT-basedWater-Monitoring-System-using-waterflow-yf-s201-sensor-and-8266-nodeMCU-microcontroller-/blob/main/waterflow_channel.png)
  - Step 2: Create a New Channel by Clicking on “Channel” & fill up the following details as shown in the image below.
  - ![Alt Text]()
  - Step 3: Click on API Key, you will see the “Write API Key“. Copy the API Key. This is very important, it will be required in Code Part.
- - ![Alt Text]()
  - Step 4: You can click on the “Private View” & customize the display window as you want.
 
  So, that’s all from the Thingspeak Setup Part. Now let us move to the programming Part.
@@ -76,13 +75,14 @@ Now Let us see ESP8266 Water Flow Sensor Code using Arduino IDE. The code can be
  
 
 > Download SSD1306 Library
+
 > Download Adafruit GFX Library 
 
  
 > 1.String apiKey = “I4T8HSIGTOLPHUPE”;
-> 
+
 > const char *ssid = “Water_Monitor”; 
->  
+
 > const char *pass = “YF-2019”;
  
 
