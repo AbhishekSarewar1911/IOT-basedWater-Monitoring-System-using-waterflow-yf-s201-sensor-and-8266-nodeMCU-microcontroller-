@@ -47,11 +47,45 @@ The pulse signal is a simple square wave so its quite easy to log and convert in
  # Mathematical Calculation to Measure Flow Rate & Volume
 
 > Sensor Frequency (Hz) = 7.5 * Q (Liters/min)
+
 > Litres = Q * time elapsed (seconds) / 60 (seconds/minute)
+
 > Litres = (Frequency (Pulses/second) / 7.5) * time elapsed (seconds) / 60
+
 > Litres = Pulses / (7.5 * 60)
 
  # Setting up Thingspeak
 
 Now we need to setup the Thingspeak Account. To set up Thingspeak follow the following Steps:
- ![Alt Text]()
+ ![Alt Text](https://github.com/AbhishekSarewar1911/IOT-basedWater-Monitoring-System-using-waterflow-yf-s201-sensor-and-8266-nodeMCU-microcontroller-/blob/main/thingspeak.png)
+ 
+ - Step 1: Visit https://thingspeak.com/ and create your account by filling up the details.
+ - ![Alt Text]()
+ - Step 2: Create a New Channel by Clicking on “Channel” & fill up the following details as shown in the image below.
+ - ![Alt Text]()
+ - Step 3: Click on API Key, you will see the “Write API Key“. Copy the API Key. This is very important, it will be required in Code Part.
+ - ![Alt Text]()
+ - Step 4: You can click on the “Private View” & customize the display window as you want.
+
+ So, that’s all from the Thingspeak Setup Part. Now let us move to the programming Part.
+
+ # Source Code/Program
+ 
+Now Let us see ESP8266 Water Flow Sensor Code using Arduino IDE. The code can be directly uploaded to the NodeMCU Board. But before that we need few Libraries for OLED Display. So download the Library first and add it to the Arduino IDE.
+
+ 
+
+> Download SSD1306 Library
+> Download Adafruit GFX Library 
+
+ 
+> 1.String apiKey = “I4T8HSIGTOLPHUPE”;
+> 
+> const char *ssid = “Water_Monitor”; 
+>  
+> const char *pass = “YF-2019”;
+ 
+
+Change the Thingspeak API Key, Wifi SSID & Password from the line above.
+
+The complete source code is given below.
