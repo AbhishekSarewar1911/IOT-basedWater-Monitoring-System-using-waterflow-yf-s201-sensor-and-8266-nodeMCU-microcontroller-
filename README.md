@@ -19,5 +19,5 @@ In this project we will learn how to make IoT Based Water Flow Meter using ESP82
 - 9 Monitoring Water Flow Rate & Volume and output graph
 
 # YF-S201 Hall-Effect Water Flow Sensor
-https://github.com/AbhishekSarewar1911/IOT-basedWater-Monitoring-System-using-waterflow-yf-s201-sensor-and-8266-nodeMCU-microcontroller-/blob/main/YF-S201-Hall-Effect-Water-Flow-Sensor.jpg
+![Alt Text](https://github.com/AbhishekSarewar1911/IOT-basedWater-Monitoring-System-using-waterflow-yf-s201-sensor-and-8266-nodeMCU-microcontroller-/blob/main/YF-S201-Hall-Effect-Water-Flow-Sensor.jpg)
 This is an image of the YF-S201 Hall-Effect Water Flow Sensor. This sensor can be connected to the waterline as it has both inlet and outlet. Inside the sensor, there is a pinwheel that measures how much liquid has moved through it. There’s an integrated magnetic hall effect sensor that outputs an electrical pulse with every revolution.
