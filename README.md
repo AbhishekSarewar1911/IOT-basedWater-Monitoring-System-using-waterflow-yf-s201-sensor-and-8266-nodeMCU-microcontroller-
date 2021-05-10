@@ -42,4 +42,4 @@ The pulse signal is a simple square wave so its quite easy to log and convert in
 
  let us see the IoT Water Flow Meter Circuit Diagram & Connection with Arduino Uno .
  
- ![Alt Text]()
+ ![Alt Text](https://github.com/AbhishekSarewar1911/IOT-basedWater-Monitoring-System-using-waterflow-yf-s201-sensor-and-8266-nodeMCU-microcontroller-/blob/main/Circuit-Diagram%20with%20ARDUINO%20U)
