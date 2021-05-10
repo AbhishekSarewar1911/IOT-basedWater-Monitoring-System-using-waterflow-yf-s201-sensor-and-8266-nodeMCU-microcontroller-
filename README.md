@@ -42,4 +42,16 @@ The pulse signal is a simple square wave so its quite easy to log and convert in
 
  let us see the IoT Water Flow Meter Circuit Diagram & Connection with Arduino Uno .
  
- ![Alt Text](https://github.com/AbhishekSarewar1911/IOT-basedWater-Monitoring-System-using-waterflow-yf-s201-sensor-and-8266-nodeMCU-microcontroller-/blob/main/Circuit-Diagram%20with%20ARDUINO%20U)
+ ![Alt Text](https://github.com/AbhishekSarewar1911/IOT-basedWater-Monitoring-System-using-waterflow-yf-s201-sensor-and-8266-nodeMCU-microcontroller-/blob/main/Circuit-Diagram%20with%20ARDUINO%20UNO.jpg)
+ 
+ # Mathematical Calculation to Measure Flow Rate & Volume
+
+> Sensor Frequency (Hz) = 7.5 * Q (Liters/min)
+> Litres = Q * time elapsed (seconds) / 60 (seconds/minute)
+> Litres = (Frequency (Pulses/second) / 7.5) * time elapsed (seconds) / 60
+> Litres = Pulses / (7.5 * 60)
+
+ # Setting up Thingspeak
+
+Now we need to setup the Thingspeak Account. To set up Thingspeak follow the following Steps:
+ ![Alt Text]()
