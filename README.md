@@ -88,18 +88,20 @@ Now Let us see ESP8266 Water Flow Sensor Code using Arduino IDE. The code can be
 
 Change the Thingspeak API Key, Wifi SSID & Password from the line above.
 
-Now go through the source code given:
+Now go through the source code given: https://github.com/AbhishekSarewar1911/IOT-basedWater-Monitoring-System-using-waterflow-yf-s201-sensor-and-8266-nodeMCU-microcontroller-/blob/main/Water%20Flow%20reading%20code.c
 
 
 # Monitoring Water Flow Rate & Volume In ThingSpeak
  
 
 Once the Code is uploaded the OLED Display will start working and will show the flow rate and volume. Initially the flow rate will be 0 liter/minute(L/M). Also Total Volume shown will be 0 Liter(L).
-
+![Alt Text]() ![Alt Text]() ![Alt Text]()
  
 
 Once the motor is turned ON & Water Starts flowing, you can see the OLED Display displaying the Flow Rate (F) & Volume(V).
 
 ## OUTPUT GRAPH
 
+![Alt Text]()
 
+### thankyou!
