@@ -103,6 +103,6 @@ Once the motor is turned ON & Water Starts flowing, you can see the OLED Display
 
 ## OUTPUT GRAPH
 
-![Alt Text]()
+![Alt Text](https://github.com/AbhishekSarewar1911/IOT-basedWater-Monitoring-System-using-waterflow-yf-s201-sensor-and-8266-nodeMCU-microcontroller-/blob/main/Water-Flow-Sensor-Thingspeak2.jpg)
 
 ### thankyou!
