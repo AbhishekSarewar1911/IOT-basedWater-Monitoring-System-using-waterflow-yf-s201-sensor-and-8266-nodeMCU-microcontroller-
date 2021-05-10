@@ -62,7 +62,7 @@ Now we need to setup the Thingspeak Account. To set up Thingspeak follow the fol
  - Step 1: Visit https://thingspeak.com/ and create your account by filling up the details.
  - ![Alt Text](https://github.com/AbhishekSarewar1911/IOT-basedWater-Monitoring-System-using-waterflow-yf-s201-sensor-and-8266-nodeMCU-microcontroller-/blob/main/waterflow_channel.png)
  - Step 2: Create a New Channel by Clicking on “Channel” & fill up the following details as shown in the image below.
- - ![Alt Text]()
+ - ![Alt Text](https://github.com/AbhishekSarewar1911/IOT-basedWater-Monitoring-System-using-waterflow-yf-s201-sensor-and-8266-nodeMCU-microcontroller-/blob/main/waterflowAPI.png)
  - Step 3: Click on API Key, you will see the “Write API Key“. Copy the API Key. This is very important, it will be required in Code Part.
  - Step 4: You can click on the “Private View” & customize the display window as you want.
 
@@ -88,4 +88,18 @@ Now Let us see ESP8266 Water Flow Sensor Code using Arduino IDE. The code can be
 
 Change the Thingspeak API Key, Wifi SSID & Password from the line above.
 
-The complete source code is given below.
+Now go through the source code given:
+
+
+# Monitoring Water Flow Rate & Volume In ThingSpeak
+ 
+
+Once the Code is uploaded the OLED Display will start working and will show the flow rate and volume. Initially the flow rate will be 0 liter/minute(L/M). Also Total Volume shown will be 0 Liter(L).
+
+ 
+
+Once the motor is turned ON & Water Starts flowing, you can see the OLED Display displaying the Flow Rate (F) & Volume(V).
+
+## OUTPUT GRAPH
+
+
