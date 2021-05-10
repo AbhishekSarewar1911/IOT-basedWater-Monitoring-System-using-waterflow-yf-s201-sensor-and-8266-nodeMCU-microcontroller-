@@ -95,7 +95,7 @@ Now go through the source code given: https://github.com/AbhishekSarewar1911/IOT
  
 
 Once the Code is uploaded the OLED Display will start working and will show the flow rate and volume. Initially the flow rate will be 0 liter/minute(L/M). Also Total Volume shown will be 0 Liter(L).
-![Alt Text]() ![Alt Text]() ![Alt Text]()
+![Alt Text](https://github.com/AbhishekSarewar1911/IOT-basedWater-Monitoring-System-using-waterflow-yf-s201-sensor-and-8266-nodeMCU-microcontroller-/blob/main/Iot-Water-Flow-Meter-SETUP.jpg) ![Alt Text]() ![Alt Text]()
  
 
 Once the motor is turned ON & Water Starts flowing, you can see the OLED Display displaying the Flow Rate (F) & Volume(V).
